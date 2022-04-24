@@ -1,0 +1,19 @@
+node index.js \
+--gasprice 80 \
+--url "https://polygon-mumbai.infura.io/v3/c86403ac939944abacb810d615c5df10" \
+--mnemonic "" \
+--pairName "Review Protocol Platform" \
+--expirationTimestamp 1682292821 \
+--collateralPerPair 1000000000000000000 \
+--priceIdentifier General_KPI \
+--longSynthName "Review Protocol Reputation" \
+--longSynthSymbol RPR-VOT \
+--shortSynthName "Review Protocol Org" \
+--shortSynthSymbol RPT-SHORT \
+--collateralToken 0xe03cfc9e275bd1298e77ea26d643fed7cd1adbe2 \
+--optimisticOracleLivenessTime 3600 \
+--fpl Linear \
+--lowerBound 0 \
+--upperBound 1000000000000000000 \
+--prepaidProposerBond 15000000000000000000 \
+--optimisticOracleProposerBond 20000000000000000000
